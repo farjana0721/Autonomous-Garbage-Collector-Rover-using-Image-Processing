@@ -5,11 +5,14 @@
  **Folder Description:**
  - Dataset: We use our own datasets along with kaggle datasets. It can be found under the dataset folder.
  - Garbage Bot Code (Embedded C++): In this folder, all the embedded C++ code we use in our arduino uno can be found which help us to operate our rover.
- - Hardware Measurements: One of the most important part of our garbage rover is the mechanical arms. All the hardware calculations for robotic arm and bot is here in this folder. This is a picture of our Garbage bot:
+ - Hardware Measurements: One of the most important part of our garbage rover is the mechanical arms. All the hardware calculations for robotic arm and bot is here in this folder.
+   This is a picture of our Garbage bot:
+   
    ![ss1](https://github.com/farjana0721/Autonomous-Garbage-Collector-Rover-using-Image-Processing/blob/main/ss1.PNG)
 
  - Garbage Model: We use machine learning model to train our dataset. Our checkpoints, frozen inference graph files are inside this folder. we use the ssdlite_mobilenet_v2_coco_2018_05_09 to train our datasets. As this model is compatible to our raspberry pi 3.
  - For real time object detection we use a webcam. The code for the webcam to detect object is stored in Object_detection_webcam.py
  - Here is the component list we use for our thesis:
+ - 
    ![ss1](https://github.com/farjana0721/Autonomous-Garbage-Collector-Rover-using-Image-Processing/blob/main/ss2.PNG)
  
