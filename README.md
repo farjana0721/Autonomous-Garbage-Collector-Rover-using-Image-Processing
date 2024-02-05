@@ -13,6 +13,6 @@
  - Garbage Model: We use machine learning model to train our dataset. Our checkpoints, frozen inference graph files are inside this folder. we use the ssdlite_mobilenet_v2_coco_2018_05_09 to train our datasets. As this model is compatible to our raspberry pi 3.
  - For real time object detection we use a webcam. The code for the webcam to detect object is stored in Object_detection_webcam.py
  - Here is the component list we use for our thesis:
- - 
+   
    ![ss1](https://github.com/farjana0721/Autonomous-Garbage-Collector-Rover-using-Image-Processing/blob/main/ss2.PNG)
  
